@@ -1,0 +1,155 @@
+/*
+	Author: James Latten
+	Author URL: http://jameslatten.me
+	
+	Desc: This is the main stylesheet for my new theme (Leevine)
+	Version: 1.0.0	
+*/
+
+// Import Bootstrap
+@import 'bootstrap.css';
+
+// Import Header
+@import 'Header';
+
+// Import blog style
+@import 'blog_post';
+
+// Config
+html{
+  margin-top: 0px !important;
+}
+
+body{
+  background: #eee;
+}
+
+// basic page layout (home, and single blog posts)
+.mainWebsite{
+  padding-top: 50px;
+
+  .leftBlogPosts{
+
+  }
+
+  .leftPageContainer{
+
+    .innerContent{
+
+      .card-content{
+
+        .card-title{
+          font-weight: 400;
+
+        }
+
+        .pageContent{
+          padding-top: 10px;
+
+        }
+      }
+    }
+  }
+}
+
+// Reset
+#tab2{
+
+  ul{
+
+    li{
+      padding-bottom: 10px;
+
+      a{
+        font-size: 1.2em;
+        color: #333;
+      }
+
+      a:hover{
+        text-decoration: none;
+      }
+    }
+
+    li:last-child{
+      padding-bottom: 0px;
+    }
+  }
+}
+
+#tab3{
+
+  a{
+    margin-bottom: 5px;
+  }
+
+  a:last-child{
+    margin-bottom: 0px;
+  }
+
+  a:hover{
+    color: #fff;
+  }
+}
+
+.upwork{
+  width: 100%;
+
+  background: #37a000;
+}
+
+.freelancer{
+  width: 100%;
+
+  background: linear-gradient(to bottom,#139ff0 0,#0087e0 100%);
+}
+
+.remote{
+  width: 100%;
+
+  background: linear-gradient(to right,#5bdfce 0%,#20b8cf 100%);
+}
+
+.card-tabs {
+
+  .tabs{
+
+    .indicator{
+      background-color: #333;
+    }
+
+    li{
+
+      a{
+        color: #aaa;
+        text-decoration: none;
+      }
+
+      a.active{
+        color: #333;
+        text-decoration: none;
+        //border-bottom: 3px solid #333;
+      }
+
+      a:hover{
+        text-decoration: none !important;
+        color: #333;
+        //border-bottom: 3px solid #333;
+      }
+
+    }
+
+  }
+}
+
+// Comments
+.baseComments{
+
+  .card-content{
+
+    h3{
+      margin-top: 0px;
+
+      font-weight: 400;
+    }
+  }
+}

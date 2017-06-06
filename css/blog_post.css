@@ -1,0 +1,132 @@
+.blogPost {
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.blogPost .topBlogBanner {
+  width: 100%;
+  height: 250px;
+}
+
+.blogPost .topBlogBanner .thumbnailView {
+  width: inherit;
+  height: 100%;
+  background-size: cover;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.blogPost .innerBlogContent {
+  background: white;
+  margin: 0px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.blogPost .innerBlogContent .postTitle {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.blogPost .innerBlogContent .postTitle h3 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 2.0em;
+}
+
+.blogPost .innerBlogContent .postTitle h3 a {
+  color: #333;
+  transition: all .7s;
+}
+
+.blogPost .innerBlogContent .postTitle h3 a:hover {
+  color: #52a6e6;
+  text-decoration: none;
+}
+
+.blogPost .innerBlogContent .topAuthorInfo {
+  padding: 15px;
+  padding-top: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.blogPost .innerBlogContent .topAuthorInfo h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0px;
+  color: #aaa;
+}
+
+.blogPost .innerBlogContent .sneakPeak {
+  padding: 15px;
+}
+
+.blogPost .innerBlogContent .sneakPeak .tags {
+  padding-top: 15px;
+}
+
+.blogPost .innerBlogContent .sneakPeak .tags .tag {
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.quoteCont {
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.quoteCont p {
+  font-weight: 400;
+  font-size: 1.8em;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.quoteCont h4 {
+  padding: 10px;
+  padding-bottom: 0px;
+  font-weight: 400;
+}
+
+.quoteCont h4 .authorName {
+  color: #aaa;
+}
+
+.quote {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.quote .itsAQuote {
+  background: #546e7a;
+  padding: 20px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.quote .itsAQuote h3 {
+  margin: 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.ather {
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.ather .authorName {
+  color: #fff;
+}
+
+.ather a {
+  color: white;
+  text-decoration: underline;
+}

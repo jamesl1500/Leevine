@@ -1,0 +1,316 @@
+/*
+	Author: James Latten
+	Author URL: http://jameslatten.me
+	
+	Desc: This is the main stylesheet for my new theme (Leevine)
+	Version: 1.0.0	
+*/
+@import url(bootstrap.css);
+.topHeadBanner {
+  background: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.topHeadBanner .inner_cover {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.topHeadBanner .inner_cover .topProfile {
+  padding-top: 60px;
+}
+
+.topHeadBanner .inner_cover .topProfile .middleIcon {
+  width: 180px;
+  height: 180px;
+  margin: 0% auto;
+  border-radius: 50%;
+  background-image: url(http://jameslatten.me/assets/images/james.jpg);
+  background-size: cover;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 6px solid white;
+}
+
+.topHeadBanner .inner_cover .bottomTitle h3 {
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.topHeadBanner .inner_cover .bottomTitle h5 {
+  margin: 0px;
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.topHeadBanner .inner_cover .bottomTitle h4 {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.mainNavigation .innerNav {
+  background: white;
+}
+
+.mainNavigation .innerNav .nav-content {
+  text-align: center;
+}
+
+.mainNavigation .innerNav .nav-content ul {
+  float: none;
+  margin: 0% auto;
+  text-align: center;
+  padding: 1px;
+}
+
+.mainNavigation .innerNav .nav-content ul li {
+  float: none;
+}
+
+.mainNavigation .innerNav .nav-content ul li a {
+  color: #aaa !important;
+  text-decoration: none !important;
+}
+
+.mainNavigation .innerNav .nav-content ul li a.active {
+  color: #333 !important;
+}
+
+.mainNavigation .innerNav .nav-content ul li a:hover {
+  color: #333 !important;
+  border-bottom: 4px solid #333;
+}
+
+.toptab .indicator {
+  display: none !important;
+}
+
+.blogPost {
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.blogPost .topBlogBanner {
+  width: 100%;
+  height: 250px;
+}
+
+.blogPost .topBlogBanner .thumbnailView {
+  width: inherit;
+  height: 100%;
+  background-size: cover;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.blogPost .innerBlogContent {
+  background: white;
+  margin: 0px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.blogPost .innerBlogContent .postTitle {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.blogPost .innerBlogContent .postTitle h3 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 2.0em;
+}
+
+.blogPost .innerBlogContent .postTitle h3 a {
+  color: #333;
+  transition: all .7s;
+}
+
+.blogPost .innerBlogContent .postTitle h3 a:hover {
+  color: #52a6e6;
+  text-decoration: none;
+}
+
+.blogPost .innerBlogContent .topAuthorInfo {
+  padding: 15px;
+  padding-top: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.blogPost .innerBlogContent .topAuthorInfo h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0px;
+  color: #aaa;
+}
+
+.blogPost .innerBlogContent .sneakPeak {
+  padding: 15px;
+}
+
+.blogPost .innerBlogContent .sneakPeak .tags {
+  padding-top: 15px;
+}
+
+.blogPost .innerBlogContent .sneakPeak .tags .tag {
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.quoteCont {
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.quoteCont p {
+  font-weight: 400;
+  font-size: 1.8em;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.quoteCont h4 {
+  padding: 10px;
+  padding-bottom: 0px;
+  font-weight: 400;
+}
+
+.quoteCont h4 .authorName {
+  color: #aaa;
+}
+
+.quote {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.quote .itsAQuote {
+  background: #546e7a;
+  padding: 20px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.quote .itsAQuote h3 {
+  margin: 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.ather {
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.ather .authorName {
+  color: #fff;
+}
+
+.ather a {
+  color: white;
+  text-decoration: underline;
+}
+
+html {
+  margin-top: 0px !important;
+}
+
+body {
+  background: #eee;
+}
+
+.mainWebsite {
+  padding-top: 50px;
+}
+
+.mainWebsite .leftPageContainer .innerContent .card-content .card-title {
+  font-weight: 400;
+}
+
+.mainWebsite .leftPageContainer .innerContent .card-content .pageContent {
+  padding-top: 10px;
+}
+
+#tab2 ul li {
+  padding-bottom: 10px;
+}
+
+#tab2 ul li a {
+  font-size: 1.2em;
+  color: #333;
+}
+
+#tab2 ul li a:hover {
+  text-decoration: none;
+}
+
+#tab2 ul li:last-child {
+  padding-bottom: 0px;
+}
+
+#tab3 a {
+  margin-bottom: 5px;
+}
+
+#tab3 a:last-child {
+  margin-bottom: 0px;
+}
+
+#tab3 a:hover {
+  color: #fff;
+}
+
+.upwork {
+  width: 100%;
+  background: #37a000;
+}
+
+.freelancer {
+  width: 100%;
+  background: linear-gradient(to bottom, #139ff0 0, #0087e0 100%);
+}
+
+.remote {
+  width: 100%;
+  background: linear-gradient(to right, #5bdfce 0%, #20b8cf 100%);
+}
+
+.card-tabs .tabs .indicator {
+  background-color: #333;
+}
+
+.card-tabs .tabs li a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.card-tabs .tabs li a.active {
+  color: #333;
+  text-decoration: none;
+}
+
+.card-tabs .tabs li a:hover {
+  text-decoration: none !important;
+  color: #333;
+}
+
+.baseComments .card-content h3 {
+  margin-top: 0px;
+  font-weight: 400;
+}

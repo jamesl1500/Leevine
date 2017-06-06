@@ -1,0 +1,87 @@
+.topHeadBanner {
+  background: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.topHeadBanner .inner_cover {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.topHeadBanner .inner_cover .topProfile {
+  padding-top: 60px;
+}
+
+.topHeadBanner .inner_cover .topProfile .middleIcon {
+  width: 180px;
+  height: 180px;
+  margin: 0% auto;
+  border-radius: 50%;
+  background-image: url(http://jameslatten.me/assets/images/james.jpg);
+  background-size: cover;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 6px solid white;
+}
+
+.topHeadBanner .inner_cover .bottomTitle h3 {
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.topHeadBanner .inner_cover .bottomTitle h5 {
+  margin: 0px;
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.topHeadBanner .inner_cover .bottomTitle h4 {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.mainNavigation .innerNav {
+  background: white;
+}
+
+.mainNavigation .innerNav .nav-content {
+  text-align: center;
+}
+
+.mainNavigation .innerNav .nav-content ul {
+  float: none;
+  margin: 0% auto;
+  text-align: center;
+  padding: 1px;
+}
+
+.mainNavigation .innerNav .nav-content ul li {
+  float: none;
+}
+
+.mainNavigation .innerNav .nav-content ul li a {
+  color: #aaa !important;
+  text-decoration: none !important;
+}
+
+.mainNavigation .innerNav .nav-content ul li a.active {
+  color: #333 !important;
+}
+
+.mainNavigation .innerNav .nav-content ul li a:hover {
+  color: #333 !important;
+  border-bottom: 4px solid #333;
+}
+
+.toptab .indicator {
+  display: none !important;
+}

@@ -1,0 +1,152 @@
+.blogPost{
+  border-radius: 2px;
+
+  margin-bottom: 20px;
+
+  .topBlogBanner{
+    width: 100%;
+    height: 250px;
+
+    .thumbnailView{
+      width: inherit;
+      height: 100%;
+
+      background-size: cover;
+
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+
+    }
+  }
+
+  .innerBlogContent{
+    background: white;
+    margin: 0px;
+
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+    .postTitle{
+      padding: 15px;
+      padding-bottom: 0px;
+
+      h3{
+        margin: 0px;
+
+        font-weight: 400;
+        font-size: 2.0em;
+
+        a{
+          color: #333;
+          transition: all .7s;
+        }
+
+        a:hover{
+          color: #52a6e6;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .topAuthorInfo{
+      padding: 15px;
+      padding-top: 5px;
+
+      border-bottom: 1px solid #eee;
+
+      h3 {
+        font-size: 1.2em;
+        font-weight: 400;
+
+        margin: 0px;
+
+        color: #aaa;
+      }
+    }
+
+    .sneakPeak{
+      padding: 15px;
+
+      .tags{
+        padding-top: 15px;
+
+        .tag{
+          cursor: pointer;
+          margin-bottom: 0px;
+        }
+      }
+
+      p{
+
+      }
+    }
+  }
+}
+
+.quoteCont{
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  p{
+    font-weight: 400;
+    font-size: 1.8em;
+    color: #333;
+
+    padding: 10px;
+
+    width: 100%;
+    border-bottom: 1px solid #eee;
+  }
+
+  h4{
+    padding: 10px;
+    padding-bottom: 0px;
+
+    font-weight: 400;
+
+    .authorName{
+      color: #aaa;
+    }
+  }
+}
+
+.quote{
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+
+  .itsAQuote{
+    background: #546e7a;
+    padding: 20px;
+
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+    h3{
+      margin: 0px;
+      color: white;
+
+      font-weight: 400;
+      font-size: 1.2em;
+
+    }
+  }
+}
+
+.ather{
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+
+  .authorName{
+    color: #fff;
+  }
+  
+  a{
+    color: white;
+    text-decoration: underline;
+  }
+}
